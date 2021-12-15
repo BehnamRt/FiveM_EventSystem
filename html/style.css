@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Semi+Condensed');
+::-webkit-scrollbar {
+    width: 0.5vw;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #545454; 
+}
+
+.killfeed {
+    position: absolute;
+    top: 15rem;
+    right: 2rem;
+    width: 25rem;
+    height: 25rem;
+    text-align: right;
+    overflow-y: hidden;
+}
+
+.killfeed .kill p.blue {
+    color: #66a1ff;
+}
+.killfeed .kill p.red {
+    color: #ff4f4f;
+}
+.killfeed .kill p.green {
+    color: #4ce065;
+}
+
+.killfeed .kill-wrapper {
+    width: 100%;
+    text-overflow: ellipsis;
+}
+
+.killfeed .kill {
+    display: inline-flex;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 2.5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.killfeed img {
+    max-width: 35px;
+    max-height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.killfeed p {
+    padding: 0;
+    margin: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.killfeed .kill i {
+    font-family: 'Font Awesome\ 5 Free' !important;
+    font-weight: 900;
+    color: white;
+    text-shadow: 2px 2px 0px #000000;
+    padding-right: 8px;
+}
+
+.killfeed .kill p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 0px #000000;
+}
+
+.elb {
+    margin-left: 16vw;
+    border-radius: 15vw;
+    padding: 0.3vw;
+    text-align: center;
+    color: #380257;
+}
+
+.red {color: #db2828;}
+.blue {color: #2185d0;}
+.white {color:white}
+.orange {color:orange}
+.hred {color: #db2828;}
+.hblue {color: #2185d0;}
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+}
